@@ -1,0 +1,195 @@
+
+*{padding:0px; margin:0px;}
+body{background-color: lightgreen;}
+
+
+.contant{border:1px solid black;
+			width: 40%;
+			margin:0 auto;
+			margin-top:10px;
+			display:none;
+			border-radius:8px 8px 0px 0px;}
+.header{text-align:center;
+		padding:2%;
+		background-color:#ff9d3a;
+		border-radius:8px 8px 0px 0px;
+		}
+
+.font {
+    z-index: 2;
+    width: 31%;
+    margin-left: 60px;
+    top: 34%;
+    height: 62%;
+    overflow: hidden;
+    position: absolute;
+}
+.back{ background: url('../image/test444.jpg');
+			background-size:100% 100%;
+			height:420px;
+			background-repeat:no-repeat;
+			position:relative;
+			filter:blur(3px);
+			z-index:-2;
+			}
+#text{float:left;
+	padding:5px;
+	font-size:26px;
+	}
+
+.middle{margin:0 auto;}
+	
+
+@import url('http://fonts.googleapis.com/css?family=Lato');
+
+.container{
+  display: block;
+  position: absolute;
+  margin: auto;
+  height: 450px;
+  width: 400px;
+  bottom: 0; left:0; right: 0; top:0;
+  padding: 0;
+}
+
+h2 {
+	color: #AAAAAA;
+	font-weight: normal;
+}
+
+.container ul{
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul li{
+  color: #AAAAAA;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 70px;
+	border-bottom: 1px solid #111111;
+}
+ul li:last-child {
+	border-bottom: none;
+}
+
+ul li input[type=radio]{
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li label{
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 1.35em;
+  padding: 25px 20px 20px 80px;
+  margin: 6px auto;
+  height: 20px;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear;
+}
+
+ul li:hover label{
+	color: #FFFFFF;
+}
+
+ul li .check{
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  top: 30px;
+  left: 20px;
+	z-index: 5;
+	transition: border .25s linear;
+	-webkit-transition: border .25s linear;
+}
+
+ul li:hover .check {
+  border: 5px solid #FFFFFF;
+}
+
+ul li .check::before {
+  display: block;
+  position: absolute;
+	content: '';
+  border-radius: 100%;
+  height: 15px;
+  width: 15px;
+  top: 5px;
+	left: 5px;
+  margin: auto;
+	transition: background 0.25s linear;
+	-webkit-transition: background 0.25s linear;
+}
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked ~ .check::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked ~ label{
+  color: #0DFF92;
+}
+
+.header{text-align:center;
+		
+		padding:2%;
+		background-color:#FF7E07;
+		border-radius:8px 8px 0px 0px;
+		}
+.nextbutton{float:right;
+			padding:3px;
+			padding-top:0px;
+			height:90px;
+			width:120px;
+			cursor:pointer;
+			margin-top:5px;
+			font-weight:bold;
+			color:#6C7A89;
+			font-size:25px;
+			font-family: 'Kaushan Script', cursive;
+			border:none;
+			margin-bottom:30px;
+			background:url('../image/next.png');
+			background-size:120px 90px;}
+.stopwatch{
+				text-align:center;}
+				
+.controls{width:30%;
+			border-radius:5px;
+			height:300px;
+			background-color:white;
+			margin-top:10%;
+			text-align:center;
+			margin:0 auto;
+			margin-top:5%;}
+.controls p {
+  font-size: 25px;
+  padding-top: 75px;
+}
+#hide{border:none;
+		margin-top:5%;
+		height:80px;
+		width:80px;
+		border-radius:100%;
+		-moz-border-radius:100%;
+		}
+#hide:hover{
+		border:1px solid blue;
+		background-color:yellow;
+		}
+.centiseconds{display:none;}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script>
+  $( function() {
+    $( "#change" ).tabs();
+  }
+ 
+
+  );
+  
+  </script>
+	<body>
+	<div class="menu">
+	<div class="img"><img width="80px" height="80px" src="image/ques4.png" alt="exam image" /></div>
+	<div class="heading">
+	<h1>Online Examination System</h1>
+	<h3>For lict  Project</h3>
+	
+	
+	</div>
+	<div class="user"><i id="userlogo" class="fa fa-user-circle" aria-hidden="true"></i>
+	<p>MD.Rakibul</p>
+    </div>
+	</div>
+	<div class="link"><p><span><a href="index.html">Home</a></span><span>
+<a href="adminlogin.html">Logout</a></span></p></div>
+		<div id="change" class="tabs tabs-style-bar">
+		<nav>
+  <ul>
+    <li><a href="#tabs-1" ><i id="sub" class="fa fa-book" aria-hidden="true"></i>
+ <span>Add Subject</span></a></li>
+    <li><a href="#tabs-2" ><span><i id="sub2" class="fa fa-tumblr-square" aria-hidden="true"></i>
+Add Test</span></a></li>
+    <li><a href="#tabs-3" ><i id="sub" class="fa fa-question-circle" aria-hidden="true"></i>
+ <span>Add Question</span></a></li>
+  </ul>
+  </nav>
+  <div class="content-wrap">
+  <div class="selector" id="tabs-1">
+   
+  <div class="header">
+			<h1>Subject Add</h1>
+		
+		</div>
+   
+		<div class="contantbody">
+			<table class="middle">
+				<tr>
+					<td></td>
+					<td id="text">Subject Name</td>
+					<td><input type="text" placeholder="Enter Language Name" /></td>
+				</tr>
+			
+				<tr>
+					<td></td>
+					<td><input class="nextbutton" type="submit" value="ADD" /></td>
+					<td></td>
+				</tr>
+			</table>
+	    </div>
+   </div>
+  <div id="tabs-2"> 
+      <div class="header">
+			<h1>Add Test</h1>
+		
+		</div>
+   
+		<div class="contantbody">
+			<table class="middle">
+				
+				<tr>
+					<td>Subject ID</td>
+					<td  id="text"><select name="" id="">
+						<option value="">VB</option>
+						<option value="">Oracle</option>
+						<option value="">Java</option>
+						<option value="">PHP</option>
+						<option value="">Computer Fundamental</option>
+						<option value="">Networking</option>
+						<option value="">Mysql</option>
+					</select></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Test Name</td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Total Question</td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input class="nextbutton" type="submit" value="Add" /></td>
+					<td></td>
+				</tr>
+			</table>
+			
+
+	</div>
+
+  </div>
+  <div id="tabs-3">
+     		<div class="header">
+			<h1>Add Question</h1>
+		
+		</div>
+   
+		<div class="contantbody">
+			<table class="middle">
+				<tr>
+					<td>Subject ID</td>
+					<td  id="text"><select name="" id="">
+						<option value="">VB</option>
+						<option value="">Oracle</option>
+						<option value="">Java</option>
+						<option value="">PHP</option>
+						<option value="">Computer Fundamental</option>
+						<option value="">Networking</option>
+						<option value="">Mysql</option>
+					</select></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Question</td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				<tr>
+					<td>Answer 1</td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+					<tr>
+					<td>Answer 2</td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+					<tr>
+					<td>Answer 3 </td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+					<td></td>
+				</tr>
+					<tr>
+					<td>Answer 4 </td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+					<td></td>
+				</tr>
+					<tr>
+					<td>True Answer </td>
+					<td  id="text"><input type="text" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input class="nextbutton" type="submit" value="Add" /></td>
+					<td></td>
+				</tr>
+			</table>
+		
+			
+
+	</div>
+  </div>
+  </div>
+</div>
+	</body>
+</html>

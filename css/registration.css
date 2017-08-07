@@ -1,0 +1,130 @@
+*{padding:0px; margin:0px;}
+body{background-color: lightgreen;}
+
+.menu{background-color:#14576C;
+	height:100px;
+	}
+.contant{border:1px solid black;
+			width: 40%;
+			margin:0 auto;
+			margin-top:15px;
+			
+			border-radius:8px 8px 0px 0px;}
+.header{text-align:center;
+		padding:2%;
+		background-color:#ff9d3a;
+		border-radius:8px 8px 0px 0px;
+		}
+.img{margin-left:40px;
+      float:left;
+	  width:80px;
+	  height:80px;
+	  border-radius:12%;
+	  margin-top:12px;
+	  overflow:hidden;
+	  }
+	 .heading {
+  float: left;
+  height: 100px;
+  margin-left: 118px;
+  overflow: hidden;
+  width: 845px;
+  text-align: center;
+}
+.heading h1{font-size:30px;}
+.link span{padding:4px;}
+.link a{text-decoration:none;
+       font-weight:bold;
+	   font-size:20px;
+	   
+	   }
+.link a:hover{border-bottom:2px solid black;
+              color:blue;}
+
+.link {text-align:right;
+      margin-right:40px;}
+.contant{border:1px solid black;
+			width: 53%;
+			top:20%;
+			margin:0 auto;
+			position:absolute;
+			left:23%;
+			border-radius:8px 8px 0px 0px;}
+.header{text-align:center;
+		
+		padding:2%;
+		background-color:#FF7E07;
+		border-radius:8px 8px 0px 0px;
+		}
+.contantbody{background-color:#FE9805;
+			padding:5%;
+			
+			text-align:center;}
+#label{width:36%;}
+.textfield06 {
+    background-color: #f4f0f2;
+    border: 1px solid #999;
+    border-radius: 4px;
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px;
+    text-decoration: none;
+    width: 200px;
+	margin:2px;
+	
+}
+.regsubmit{float:right;
+			padding:3px;
+			width:70px;
+			margin-top:5px;}
+
+
+
+.black12bold {
+    color: #000000;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+	text-align:left;
+}
+
+
+
+@media screen and (max-width: 340px) {
+    body {
+        background-color: lightgreen;
+    }
+	
+	.header h1{
+		 font-size:16px;
+		 padding-left:3px;
+		}
+}
+
+
+@media screen and (max-width: 650px) {
+    body {
+        background-color: lightgreen;
+    }
+	
+	.header h1{
+		 font-size:20px;
+		 padding-left:3px;
+		}
+		.contantbody  {padding:10px;}
+}
+
+@media screen and (max-width: 335px) {
+    body {
+        background-color: lightgreen;
+    }
+	
+	.header h1{
+		 font-size:16px;
+		 padding-left:3px;
+		}
+	.contantbody  {font-size:12px;}
+}
+

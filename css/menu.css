@@ -1,0 +1,53 @@
+
+.menu{background-color:#14576C;
+	height:100px;
+	}
+
+.header{text-align:center;
+		padding:2%;
+		background-color:#ff9d3a;
+		border-radius:8px 8px 0px 0px;
+		}
+.img{margin-left:40px;
+      float:left;
+	  width:80px;
+	  height:80px;
+	  border-radius:12%;
+	  margin-top:12px;
+	  overflow:hidden;
+	  }
+.heading {
+    float: left;
+    height: 100px;
+    margin-left: 0px;
+    overflow: hidden;
+    width: 70%;
+    text-align: center;
+}
+.heading h1{font-size:30px;}
+
+.user {
+  border-radius: 12% 12% 0 0;
+  display: block;
+  float: right;
+   margin-top:12px;
+  height: 80px;
+  margin-right: 40px;
+  overflow: hidden;
+  width: 80px;
+}
+#userlogo{font-size:4em;}
+
+
+
+.link span{padding:4px;}
+.link a{text-decoration:none;
+       font-weight:bold;
+	   font-size:20px;
+	   
+	   }
+.link a:hover{border-bottom:2px solid black;
+              color:blue;}
+
+.link {text-align:right;
+      margin-right:40px;}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Exam</title>
+<script src="js/jquery.min.js"></script>
+<link rel="stylesheet" href="css/login.css" type="text/css" />
+<link rel="stylesheet" href="css/menu.css" type="text/css" />
+<script type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div class="menu">
+	<div class="img"><img width="80px" height="80px" src="image/ques4.png" alt="exam image" /></div>
+	<div class="heading">
+	<h1>Online Examination System</h1>
+	<h3>For lict  Project</h3>
+	
+	
+	</div>
+	<div class="user"><i id="userlogo" class="fa fa-user-circle" aria-hidden="true"></i>
+    </div>
+	</div>
+	<div class="link"><p><span><a href="adminlogin.html">Admin</a></span><span>
+<a href="adminlogin.html">Logout</a></span></p></div>
+	
+
+
+<div class="login-form">
+	<div class="front-face">
+		<span class="text">LOGIN</span>
+	</div>
+	<form >	
+		<input type="text" placeholder="Username" class="input" required/>
+		<input type="password" placeholder="Password" class="input" required/>
+		
+		<button class="input-btn" ></button>
+	</form>
+</div>
+<div class="newuser">
+<p><a href="registration.html">New User</a></p>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".input").on("focus",function(){
+		$(".login-form").addClass("focused");
+	})
+	$(".input-btn").on("click",function(e){
+		e.preventDefault();
+		$(".login-form").removeClass("focused");
+	})
+	$(".input-btn").click(() => {
+		window.location.href="home.html";
+		return false;
+	});
+});
+</script>
